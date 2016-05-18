@@ -6,8 +6,13 @@
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "~0.5.0",
-    "ncp": "^2.0.0",
+  },
+  "dependencies": {
     "node-fs": "^0.1.7",
-    "string": "^3.3.1"
+    "string": "^3.3.1",
+    "ncp": "^2.0.0",
+    "find": "^0.2.4",
+    "get-hrefs": "^1.0.3",
+    "underscore": "^1.8.3"
   }
 }

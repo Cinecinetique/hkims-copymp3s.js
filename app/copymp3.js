@@ -9,9 +9,8 @@ var S = require('string');
 const util = require('util');
 
 
-var dest_base_dir = '/usr/share/nginx/www/';
-//var dest_base_dir = __dirname + "/output";
-var source_path = "/medias_source";
+var dest_base_dir = __dirname + "/output";
+var source_path = "/root/medias_source";
 ncp.limit = 16;
 
 fs.readFile('audio_page.html', 'utf8', (err, data) => {
